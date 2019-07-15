@@ -9,6 +9,7 @@
 </template>
 
 <script>
+    
     import Navigation from '~/components/NavigationBar'
     import Introduction from '~/components/Introduction'
     import AboutMe from '~/components/AboutMe'
