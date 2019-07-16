@@ -1,8 +1,8 @@
 <template>
     <div>
         <div id="footer_root">
-            <h5>Contact</h5>
-            <p id="emailAddress">keithchambers@protonmail.com</p>
+            <span id="contactFooterHeading">Contact</span>
+            <span id="emailAddress">keithchambers@protonmail.com</span>
         </div>
     </div>
 </template>
@@ -16,20 +16,26 @@
 
 
 <style scoped>
+    
     #footer_root {
-      padding-left: 2em;
-      padding-top: 2em;
-      display: flex;
-      flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        
     }
-
-    #footer_root * {
-      color: white;
-      padding: 2px;
-      margin: 0px;
+    
+    #contactFooterHeading {
+        margin-top: 20px;
+        font-size: 0.85em;
+    }
+    
+    #footer_root > * {
+        color: white;
+        margin-left: 10px;
     }
 
     #emailAddress {
-        font-size: 12px;
+        font-size: 0.70em;
     }
 </style>

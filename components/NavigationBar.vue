@@ -2,10 +2,18 @@
     <div>
         <nav id="nav">
             <div id="headerLogoContainer">
-                <a href="#" id="headerText" class="links">Keith Chambers</a>
+                <nuxt-link to="/" id="headerText" class="links">Keith Chambers</nuxt-link>
             </div>
             <div id="headerBarRHS">
                 <a href="#" id="headerServices" class="links">Services</a> 
+                <div uk-dropdown delay-hide="100">
+                    <ul class="uk-nav uk-dropdown-nav">
+                        <li><nuxt-link to="/webdevelopment">Web Development</nuxt-link></li>
+                        <li><nuxt-link to="/appdevelopment">App Development</nuxt-link></li>
+                        <li><nuxt-link to="/privatelessons">Private Lessons</nuxt-link></li>
+                    </ul>
+                </div>
+                
                 <a href="#" id="headerContact" class="links">Contact</a> 
                 <a href=http://github.com/keith-chambers id="headerGithub">
                     <img src="~/assets/GitHub-Mark-Light-32px.png" alt="Github" />
