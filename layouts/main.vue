@@ -24,6 +24,11 @@
 
 <style>
     
+    body, h3, p {
+        margin: 0px;
+        padding: 0px;
+    }
+    
     #footer {
         background-color: #22252D;
         height: 80px;
