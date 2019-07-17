@@ -2,7 +2,7 @@
     <div>
         <nav id="nav">
             <div id="headerLogoContainer">
-                <nuxt-link to="/" id="headerText" class="links">Keith Chambers</nuxt-link>
+                <nuxt-link to="/" id="headerText" class="links"><span id="abc">KEITH CHAMBERS</span></nuxt-link>
             </div>
             <div id="headerBarRHS">
                 <a href="#" id="headerServices" class="links">Services</a> 
@@ -50,12 +50,12 @@
     .links {
       text-decoration: none;
     }
-
-    #headerText {
+    
+    #abc {
         color: white;
         font-size: 20px;
-        font-weight: 200;
-        font-family: roboto;
+        font-weight: 100;
+        font-family: "Roboto", sans-serif;
     }
 
     #headerLogoContainer {

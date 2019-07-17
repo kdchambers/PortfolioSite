@@ -2,7 +2,7 @@
     <div>
         <div id="footer_root">
             <span id="contactFooterHeading">Contact</span>
-            <span id="emailAddress">keithchambers@protonmail.com</span>
+            <span id="emailAddress">Email: keithchambers@protonmail.com</span>
         </div>
     </div>
 </template>
@@ -20,22 +20,23 @@
     #footer_root {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-items: flex-start;
-        
+        padding-top: 20px;
     }
     
     #contactFooterHeading {
-        margin-top: 20px;
-        font-size: 0.85em;
+        
+        font-size: 0.9em;
     }
     
     #footer_root > * {
         color: white;
-        margin-left: 10px;
+        margin-left: 40px;
+        font-family: "Roboto", sans-serif;
     }
 
     #emailAddress {
-        font-size: 0.70em;
+        font-size: 0.80em;
     }
 </style>
