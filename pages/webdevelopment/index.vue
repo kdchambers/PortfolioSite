@@ -27,6 +27,7 @@
                 <span>Websites are viewed from a large variety of devices and need to be responsive so that all users have the same positive experience regardless of screen size. Using responsive HTML5 and CSS3 this can be achieved without the headache of having to maintain multiple versions of a site.</span>
             </div>
         </div>
+        <div class="bottomColumn" id="bottomColumnLeft"></div>
         <div id="bottomSection">
             <div class="textBlock">
                 <h5>Need an existing site redone?</h5>
@@ -48,14 +49,16 @@
                         <input class="uk-input" type="text" placeholder="Email Address">
                     </div>
                     <div class="uk-margin">
-                        <textarea class="uk-textarea" rows="5" placeholder="Give a rough explanation of the work"></textarea>
+                        <textarea class="uk-textarea" rows="5" placeholder="What can I help you with?"></textarea>
                     </div>
                     <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
                         <label><input class="uk-checkbox" type="checkbox">  Student</label>
                     </div>
+                    <button class="uk-button uk-button-secondary uk-button-small">Submit</button>
                 </fieldset>
             </form>
         </div>
+        <div class="bottomColumn" id="bottomColumnRight"></div>
     </div>
 </div>
     
@@ -80,6 +83,17 @@
         /*border: 1px solid yellow;*/
     }
     
+    #bottomColumnLeft {
+        grid-area: bcl;
+        background-color: #F0F0F0;
+    }
+    
+    #bottomColumnRight {
+        grid-area: bcr;
+        
+        background-color: #F0F0F0;
+    }
+    
     #webDevRoot {        
         display: grid;
         margin-top: 80px;
@@ -88,13 +102,14 @@
         grid-template-areas: 
             ". heading ."
             ". middleSection ."
-            ". bottomSection .";
+            "bcl bottomSection bcr";
 
     }
     
     #benefitsContainer {
         grid-area: middleSection;
         margin-top: 80px;
+        margin-bottom: 4vw;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -125,7 +140,7 @@
     #webDevIntro {
         flex-grow: 3;
         min-width: 200px;
-        max-width: 400px;
+        max-width: 700px;
         margin-right: 30px;
         margin-left: 30px;
         
@@ -146,7 +161,9 @@
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin-top: 8vw;
+        padding-top: 4vw;
+        
+        background-color: #F0F0F0;
     }
     
     #inputForm {
