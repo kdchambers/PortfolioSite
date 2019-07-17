@@ -3,7 +3,7 @@
     <div id="webDevRoot">
         <div id="topSection">
             <h1 id="webDevHeading">WEB DEVELOPMENT</h1>
-            <p id="webDevIntro">Whether a simple portfolio site (Like this one) or a more complicated web application,  I can build a custom-tailored, robust and lightweight solution for you. I use cutting edge, modern web technologies that allow me to build impressive applications quickly.</p> 
+            <p id="webDevIntro">Whether a simple portfolio site or a more complicated web application,  I can build a custom-tailored, robust and lightweight solution for you using cutting edge, modern web technologies.</p> 
         </div>
         <div id="benefitsContainer">
             <div class="textBlock" id="fromScratch">
@@ -35,9 +35,7 @@
             </div>
             <div class="textBlock">
                 <h5>Are You A Student?</h5>
-                <span>Impress employers with a custom tailored portfolio / CV site. Regardless of yor field of study, it’ll be sure to make yourself stand out and give yourself the best chance to suceed in your career ambitions. 
-
-                I’m currently doing a promotion where I will do a simple site for students for 60 euro. If you have design skills and prefer I’ll even work to your design specification. Get in touch before promotion expires!</span>
+                <span>Impress employers with a custom tailored portfolio / CV site. Regardless of yor field of study, it’ll be sure to make yourself stand out and give yourself the best chance to suceed in your career ambitions. Students are charged at a discounted rate so get in touch for a quote.</span>
             </div>
             <form id="inputForm">
                 <fieldset class="uk-fieldset">
@@ -77,6 +75,7 @@
     
     h5 {
         font-weight: 500;
+        margin-bottom: 10px;
     }
     
     #webDevRoot * {
@@ -143,6 +142,8 @@
         max-width: 700px;
         margin-right: 30px;
         margin-left: 30px;
+        
+        font-size: 22px;
         
         align-self: center; 
     }

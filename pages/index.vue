@@ -2,7 +2,6 @@
   <div id="gridRoot">
       <Introduction id="introduction"></Introduction>
       <AboutMe id="aboutMe"></AboutMe>
-      <Projects id="projects"></Projects>
   </div>
 </template>
 
@@ -10,14 +9,12 @@
     
     import Introduction from '~/components/Introduction'
     import AboutMe from '~/components/AboutMe'
-    import Projects from '~/components/Projects'
 
     export default {
         layout: 'main',
         components: {
             Introduction,
-            AboutMe,
-            Projects
+            AboutMe
         }
     }
 </script>
@@ -37,8 +34,8 @@
       display: grid;
       margin: 0px;
       grid-template-columns: 1fr;
-      grid-template-rows: 500px minmax(450px, auto) minmax(450px, auto);
-      grid-template-areas: "intro" "aboutMe" "projects";
+      grid-template-rows: minmax(min-content, auto) minmax(600px, auto);
+      grid-template-areas: "intro" "aboutMe";
     }
     
     
@@ -51,11 +48,6 @@
     #aboutMe {
         grid-area: aboutMe;
         background-color: #E7E7E7;
-    }
-    
-    #projects {
-        grid-area: projects;
-        background-color: white;
     }
     
 </style>

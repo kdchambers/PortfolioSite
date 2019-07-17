@@ -5,48 +5,62 @@
             <div id=appDevHeadingContainer>
                 <h1 id="appDevHeading">APP DEVELOPMENT</h1>
             </div>
-            <p id="appDevIntro">Comission powerful native desktop applications for Linux and Windows. Create something unique and innovative or simply automate tedious tasks. </p> 
+            <p id="appDevIntro">Commission powerful native desktop applications for Linux and Windows. Create something unique and innovative or simply automate tedious tasks. </p> 
         </div>
         <div class="bottomColumn" id="bottomColumnLeft"></div>
         <div id="bottomSection">
-            <div class="textBlock">
-                <h5>Core Languages (By Experience Level)</h5>
-                <ul>
-                    <li>C/C++</li>
-                    <li>Zig</li>
-                    <li>Java</li>
-                </ul>
+            <div id="technologies">
+                <div class="textBlock">
+                    <h5>Core Languages (By Experience Level)</h5>
+                    <ul>
+                        <li>C/C++</li>
+                        <li>Zig</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+                <div class="textBlock">
+                    <h5>UI Technologies</h5>
+                    <ul>
+                        <li>Dear ImGui</li>
+                        <li>Qt (QML)</li>
+                    </ul>
+                </div>
+                <div class="textBlock">
+                    <h5>Persistence</h5>
+                    <ul>
+                        <li>Sqlite (C)</li>
+                        <li>RapidJSON</li>
+                    </ul>
+                </div>
+                <div class="textBlock">
+                    <h5>Dev Tools</h5>
+                    <ul>
+                        <li>CMake / Make</li>
+                        <li>Git / Github</li>
+                        <li>Catch2 (Test framework)</li>
+                    </ul>
+                </div>
+                <div class="textBlock">
+                    <h5>Speciality</h5>
+                    <ul>
+                        <li>Data-oriented / performance driven design</li>
+                    </ul>
+                </div>
+
+                <span id="addedNote"><strong>*Not Exhaustive and can learn new technologies if required*</strong></span>
             </div>
-            <div class="textBlock">
-                <h5>UI Technologies</h5>
-                <ul>
-                    <li>Dear ImGui</li>
-                    <li>Qt (QML)</li>
-                </ul>
-            </div>
-            <div class="textBlock">
-                <h5>Persistence</h5>
-                <ul>
-                    <li>Sqlite (C)</li>
-                    <li>RapidJSON</li>
-                </ul>
-            </div>
-            <div class="textBlock">
-                <h5>Dev Tools</h5>
-                <ul>
-                    <li>CMake / Make</li>
-                    <li>Git / Github</li>
-                    <li>Catch2 (Test framework)</li>
-                </ul>
-            </div>
-            <div class="textBlock">
-                <h5>Speciality</h5>
-                <ul>
-                    <li>Data-oriented / performance driven design</li>
-                </ul>
-            </div>
-            
-            <span id="addedNote"><strong>*Not Exhaustive and can learn new technologies if required*</strong></span>
+            <form id="inputForm">
+                <fieldset class="uk-fieldset">
+                    <h5>Get In Touch</h5>
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" placeholder="Email Address">
+                    </div>
+                    <div class="uk-margin">
+                        <textarea class="uk-textarea" rows="5" placeholder="What are you interested in?"></textarea>
+                    </div>
+                    <button class="uk-button uk-button-secondary uk-button-small">Submit</button>
+                </fieldset>
+            </form>
         </div>
         <div class="bottomColumn" id="bottomColumnRight"></div>
     </div>
@@ -99,6 +113,13 @@
             ". bottomSection .";
     }
     
+    #inputForm {
+        margin-left: 15vw;
+        max-width: 20vw;
+        min-width: 300px;
+        margin-top: 80px;
+    }
+    
     #topSectionContainer {
         grid-area: topSection;
         
@@ -124,6 +145,10 @@
         margin-bottom: 4vw;
         margin-left: 30px;
         
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
     }
     
     #appDevHeading {
@@ -147,6 +172,8 @@
         max-width: 700px;
         margin-right: 30px;
         margin-left: 30px;
+        
+        font-size: 22px;
         
         justify-self: end;
         align-self: center;
