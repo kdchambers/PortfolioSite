@@ -24,7 +24,7 @@
 
 <style>
     
-    body, h3, p {
+    body, h3, h1, h2, h4, h5, h6, p {
         margin: 0px;
         padding: 0px;
     }

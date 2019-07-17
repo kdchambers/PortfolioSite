@@ -10,7 +10,6 @@
                     <ul class="uk-nav uk-dropdown-nav">
                         <li><nuxt-link to="/webdevelopment">Web Development</nuxt-link></li>
                         <li><nuxt-link to="/appdevelopment">App Development</nuxt-link></li>
-                        <li><nuxt-link to="/privatelessons">Private Lessons</nuxt-link></li>
                     </ul>
                 </div>
                 
@@ -53,7 +52,10 @@
     }
 
     #headerText {
-      color: white;
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        font-family: roboto;
     }
 
     #headerLogoContainer {
