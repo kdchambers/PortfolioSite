@@ -1,7 +1,7 @@
 <template>
     <div>
         <div id="container">
-            <img id="picture" src="~/assets/me.jpg" alt="Picture of me"> 
+            <img id="picture" src="~/assets/me_cropped.png" alt="Picture of me"> 
             <p id="introMessage">
                 Hi. I’m a software developer with a passion for making clean, fast and modern applications. I am versed in a wide variety of technologies for both application and web development. Get in touch and we can build something together! 
             </p>
@@ -25,22 +25,27 @@
       justify-content: space-evenly;
       padding-left: 5%;
       padding-right: 5%;
+        margin-bottom: 5vw;
     }
     
     #picture {
-      grid-area: "picture";
-      height: 250px;
-      width: 180px;
+        grid-area: "picture";
+        flex-grow: 1;
+        max-height: 300px;
+        max-width: 300px;
+        margin-bottom: 20px;
     }
 
     #introMessage {
-      color: black;
-      font-family: "Roboto", sans-serif;
-      font-size: 14;
-      word-wrap: normal;
-      max-width: 30em;
-      min-width: 5em;
-      margin-left: 2em;
-      margin-right: 2em;
+        color: black;
+        font-family: "Roboto", sans-serif;
+        font-size: 14;
+        flex-grow: 5;
+        word-wrap: normal;
+        max-width: 30em;
+        min-width: 5em;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 20px;
     }
 </style>
