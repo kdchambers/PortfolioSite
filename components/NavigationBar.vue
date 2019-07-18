@@ -13,7 +13,8 @@
                     </ul>
                 </div>
                 
-                <a href="#" id="headerContact" class="links">Contact</a> 
+
+                <nuxt-link to="/contact" id="headerContact" class="links">Contact</nuxt-link>
                 <a href=http://github.com/keith-chambers id="headerGithub">
                     <img src="~/assets/GitHub-Mark-Light-32px.png" alt="Github" />
                 </a>

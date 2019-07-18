@@ -149,6 +149,8 @@
         flex-wrap: wrap;
         flex-direction: row;
         
+        padding-bottom: 80px;
+        
     }
     
     #appDevHeading {

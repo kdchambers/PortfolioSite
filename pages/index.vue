@@ -48,6 +48,7 @@
     #aboutMe {
         grid-area: aboutMe;
         background-color: #E7E7E7;
+        padding-bottom: 60px;
     }
     
 </style>

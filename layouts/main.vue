@@ -3,8 +3,8 @@
         <div id="root">
             <Navigation id="navigation"></Navigation>
             <nuxt />
-            <Footer id="footer"></Footer>
         </div>
+        <Footer id="footer"></Footer>
   </div>
 </template>
 
@@ -27,11 +27,19 @@
     body, h3, h1, h2, h4, h5, h6, p {
         margin: 0px;
         padding: 0px;
+        
+    }
+    
+    #root {
+        height: 100%;
+        min-height: 100vh;
     }
     
     #footer {
         background-color: #22252D;
+        position: relative;
         height: 80px;
+        margin-top: -80px;
     }
     
 html {

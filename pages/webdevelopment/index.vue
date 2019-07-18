@@ -170,6 +170,7 @@
     #inputForm {
         min-width: 400px;
         margin: 30px;
+        padding-bottom: 80px;
     }
     
 </style>
