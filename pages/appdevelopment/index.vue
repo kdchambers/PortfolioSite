@@ -49,7 +49,7 @@
 
                 <span id="addedNote"><strong>*Not Exhaustive and can learn new technologies if required*</strong></span>
             </div>
-            <form id="inputForm">
+            <!--<form id="inputForm">
                 <fieldset class="uk-fieldset">
                     <h5>Get In Touch</h5>
                     <div class="uk-margin">
@@ -60,7 +60,7 @@
                     </div>
                     <button class="uk-button uk-button-secondary uk-button-small">Submit</button>
                 </fieldset>
-            </form>
+            </form>-->
         </div>
         <div class="bottomColumn" id="bottomColumnRight"></div>
     </div>

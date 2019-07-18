@@ -37,7 +37,7 @@
                 <h5>Are You A Student?</h5>
                 <span>Impress employers with a custom tailored portfolio / CV site. Regardless of yor field of study, it’ll be sure to make yourself stand out and give yourself the best chance to suceed in your career ambitions. Students are charged at a discounted rate so get in touch for a quote.</span>
             </div>
-            <form id="inputForm">
+<!--            <form id="inputForm">
                 <fieldset class="uk-fieldset">
                     <h5>Get In Touch</h5>
                     <div class="uk-margin">
@@ -54,7 +54,7 @@
                     </div>
                     <button class="uk-button uk-button-secondary uk-button-small">Submit</button>
                 </fieldset>
-            </form>
+            </form>-->
         </div>
         <div class="bottomColumn" id="bottomColumnRight"></div>
     </div>
@@ -164,13 +164,14 @@
         flex-wrap: wrap;
         padding-top: 4vw;
         
+        padding-bottom: 100px;
+        
         background-color: #F0F0F0;
     }
     
     #inputForm {
         min-width: 400px;
         margin: 30px;
-        padding-bottom: 80px;
     }
     
 </style>

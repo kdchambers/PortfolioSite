@@ -6,19 +6,19 @@
                     <h5>Email: </h5><span>keithchambers@protonmail.com</span>
                 </div>
                 <div id="phoneNum">
-                    <h5>Phone: </h5><span>(+353) 87 1702091</span>
+                    <h5>Phone: </h5><span>(+353) 83 1249721</span>
                 </div>
                 <div id="links">
                     <a href=http://github.com/keith-chambers>
-                        <img src="~/assets/GitHub-Mark-Light-32px.png" alt="Github" class="socialLink" />
+                        <img src="~/assets/GitHub-Mark-32px.png" alt="Github" class="socialLink" />
                     </a>
-                    <a href=http://github.com/keith-chambers >
-                        <img src="~~/assets/GitHub-Mark-Light-32px.png" alt="Github" class="socialLink" />
+                    <a href=https://www.linkedin.com/in/keithdchambers/ >
+                        <img src="~~/assets/LI-In-Bug.png" alt="Github" id="linkedinLink" />
                     </a>
                 </div>
             </div>
             <div id="rightColumn">
-                <form id="inputForm">
+                <!--<form id="inputForm" action="MAILTO:kd.chambers97@gmail.com" method="GET" entype="text/plain">
                     <fieldset class="uk-fieldset">
                         <h5>Get In Touch</h5>
                         <div class="uk-margin">
@@ -27,9 +27,9 @@
                         <div class="uk-margin">
                             <textarea class="uk-textarea" rows="5" placeholder="What are you interested in?"></textarea>
                         </div>
-                        <button class="uk-button uk-button-secondary uk-button-small">Submit</button>
+                        <button type="submit" class="uk-button uk-button-secondary uk-button-small">Submit</button>
                     </fieldset>
-                </form>
+                </form>-->
             </div>
         </div>
     </div>
@@ -44,8 +44,17 @@
 <style scoped>
     
     .socialLink {
-        height: 64px;
-        width: 64px;
+        height: 32px;
+        width: 32px;
+        
+        margin-top: 80px;
+        margin-right: 30px;
+    }
+    
+    #linkedinLink {
+        height: 32px;
+        width: 36px;
+        margin-top: 80px;
     }
     
     #contactRoot {
