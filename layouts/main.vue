@@ -33,10 +33,6 @@
 		padding: 0px;
 	}
 
-	body * {
-		border: 1px solid yellow;
-	}
-
 	#footer {
 		background-color: #22252D;    
 		position: relative;
