@@ -1,10 +1,10 @@
 <template>
-    <div id="bleh">
+    <div>
         <div id="root">
             <Navigation id="navigation"></Navigation>
             <nuxt />
-			<Footer id="footer"></Footer>
         </div>
+		<Footer id="footer"></Footer>
   </div>
 </template>
 
@@ -27,6 +27,10 @@
 	body {
 		height: 100%;
 	}
+	
+	#root {
+		min-height: calc(100vh - 80px);
+	}
 
 	body, h3, h1, h2, h4, h5, h6, p {
 		margin: 0px;
@@ -37,8 +41,8 @@
 		background-color: #22252D;    
 		position: relative;
 		height: 80px;
+		margin-bottom: -80px;
 		width: 100%;
-		margin-bottom: 0px;
 		clear: both;
 	}
     

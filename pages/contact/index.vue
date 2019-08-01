@@ -30,8 +30,6 @@
                         <button type="submit" class="uk-button uk-button-secondary uk-button-small">Submit</button>
                     </fieldset>
                 </form>-->
-                
-                Ninja111
             </div>
         </div>
     </div>
