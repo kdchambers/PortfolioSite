@@ -67,7 +67,7 @@
         padding: 0px;
     }
     
-    .aboutMeInfoList > li{
+    .aboutMeInfoList > li {
         list-style: none;
         text-align: center;
     }

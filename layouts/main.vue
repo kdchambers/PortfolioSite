@@ -1,10 +1,10 @@
 <template>
-    <div>
+    <div id="bleh">
         <div id="root">
             <Navigation id="navigation"></Navigation>
             <nuxt />
+			<Footer id="footer"></Footer>
         </div>
-        <Footer id="footer"></Footer>
   </div>
 </template>
 
@@ -23,24 +23,28 @@
 </script>
 
 <style>
-    
-    body, h3, h1, h2, h4, h5, h6, p {
-        margin: 0px;
-        padding: 0px;
-        
-    }
-    
-    #root {
-        height: 100%;
-        min-height: 100vh;
-    }
-    
-    #footer {
-        background-color: #22252D;
-        position: relative;
-        height: 80px;
-        margin-top: -80px;
-    }
+  
+	body {
+		height: 100%;
+	}
+
+	body, h3, h1, h2, h4, h5, h6, p {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	body * {
+		border: 1px solid yellow;
+	}
+
+	#footer {
+		background-color: #22252D;    
+		position: relative;
+		height: 80px;
+		width: 100%;
+		margin-bottom: 0px;
+		clear: both;
+	}
     
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',

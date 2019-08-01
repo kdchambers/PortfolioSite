@@ -2,7 +2,7 @@
     <div>
         <nav id="nav">
             <div id="headerLogoContainer">
-                <nuxt-link to="/" id="headerText" class="links"><span id="abc">KEITH CHAMBERS</span></nuxt-link>
+                <nuxt-link to="/" id="headerText" class="links"><span id="title">KEITH CHAMBERS</span></nuxt-link>
             </div>
             <div id="headerBarRHS">
                 <a href="#" id="headerServices" class="links">Services</a> 
@@ -12,8 +12,6 @@
                         <li><nuxt-link to="/appdevelopment">App Development</nuxt-link></li>
                     </ul>
                 </div>
-                
-
                 <nuxt-link to="/contact" id="headerContact" class="links">Contact</nuxt-link>
                 <a href=http://github.com/keith-chambers id="headerGithub">
                     <img src="~/assets/GitHub-Mark-Light-32px.png" alt="Github" />
@@ -52,7 +50,7 @@
       text-decoration: none;
     }
     
-    #abc {
+    #title {
         color: white;
         font-size: 20px;
         font-weight: 100;

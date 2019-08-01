@@ -1,7 +1,7 @@
 <template>
     <div>
         <div id="container">
-            <img id="picture" src="~/assets/me_cropped.png" alt="Picture of me"> 
+            <img id="picture" src="~/assets/me_cropped.jpg" alt="Picture of me"> 
             <p id="introMessage">
                 Hi. I’m a software developer with a passion for making clean, fast and modern applications. I am versed in a wide variety of technologies for both application and web development. Get in touch and we can build something together! 
             </p>

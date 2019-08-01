@@ -24,11 +24,6 @@
         margin: 0px;
         font-family: "Roboto", sans-serif;
     }
-    
-/*    body * {
-         border: 1px solid yellow;
-    }*/
-
 
     #gridRoot {
       display: grid;

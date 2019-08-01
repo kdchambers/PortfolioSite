@@ -8,19 +8,19 @@
         <div id="benefitsContainer">
             <div class="textBlock" id="fromScratch">
                 <h5>Custom Websites</h5>
-                <span>Unlike many web developers, I don’t rely on large CSS frameworks (Like Bootstrap)  to develop websites quickly. All websites are buillt from scratch and can be customised to any degree to suit the client’s specific needs and reflect genuine charactor. </span>
+                <span>I don’t rely on large CSS frameworks (Like Bootstrap) to develop websites quickly. All websites are buillt from scratch and can be customised to any degree to suit the client’s specific needs and reflect genuine charactor. </span>
             </div>
             <div class="textBlock" id="seo">
                 <h5>Search Engine Optimization (SEO)</h5>
                 <span>This is a big concern for many business’ that rely on their websites for potential customer leads. Using descriptive HTML5 helps web crawlers identify and understand the structure of your website, but that isn’t enough. 
 
-                Along side that, I can deploy any built website using server-side rendering which pre-renders a site fully the first time it is requested by the client. This is beneficial as web crawlers only analyse static websites, so web pages that require a lot of javascript to download additional content can be almost empty from an SEO point of view!</span>
+                In addition, I can deploy any built website using server-side rendering which pre-renders a site fully the first time it is requested by the client. This is beneficial as web crawlers only analyse static websites, so web pages that require a lot of javascript to download additional content can be almost empty from an SEO point of view.</span>
             </div>
             <div class="textBlock" id="perf">
                 <h5>Performance</h5>
                 <span>It doesn’t matter how good your website is, if it’s slow to respond most users will abandon it. Modern websites can certainly do a lot, but with that comes the price of performance. 
 
-                I only choose technologies that are lightweight and performance, as well as using additional techniques to reduce the amount of data needed to be sent between the client and server. This means faster websites for users and less burden on the server for the website owner. </span>
+                I choose only technologies that are lightweight and performant, as well as using additional techniques to reduce the amount of data needed to be sent between the client and server. This means faster websites for users and less burden on the server for the website owner. </span>
             </div>
             <div class="textBlock" id="responsive">
                 <h5>Responsive Design</h5>
@@ -31,7 +31,7 @@
         <div id="bottomSection">
             <div class="textBlock">
                 <h5>Need an existing site redone?</h5>
-                <span>Enter the address of the site below, along with what you’d like done with it. I’ll create a simple mock-up and quote free of charge.</span>
+                <span>Email me the address of the site, along with what you’d like done with it. I’ll create a simple mock-up and quote free of charge.</span>
             </div>
             <div class="textBlock">
                 <h5>Are You A Student?</h5>
