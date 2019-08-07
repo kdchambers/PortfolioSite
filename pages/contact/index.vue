@@ -18,26 +18,58 @@
                 </div>
             </div>
             <div id="rightColumn">
-                <!--<form id="inputForm" action="MAILTO:kd.chambers97@gmail.com" method="GET" entype="text/plain">
+                <form id="inputForm" v-on:submit="sendFormReq()" v-on:submit.prevent entype="text/plain">
                     <fieldset class="uk-fieldset">
                         <h5>Get In Touch</h5>
                         <div class="uk-margin">
-                            <input class="uk-input" type="text" placeholder="Email Address">
+                            <input id="client-email" class="uk-input" type="text" placeholder="Email Address" v-model="clientEmail">
                         </div>
                         <div class="uk-margin">
-                            <textarea class="uk-textarea" rows="5" placeholder="What are you interested in?"></textarea>
+                            <textarea id="client-message" class="uk-textarea" rows="5"  v-model="clientMessage" placeholder="What are you interested in?"></textarea>
                         </div>
                         <button type="submit" class="uk-button uk-button-secondary uk-button-small">Submit</button>
                     </fieldset>
-                </form>-->
+                </form>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+	
     export default {
-        layout: 'main'
+        layout: 'main',
+		data(){ 
+		  return {
+			clientEmail: '',
+			clientMessage: ''
+		}},
+		methods: {
+			sendFormReq() {
+				let axios = require('axios');
+				const serverDomain = 'http://localhost:3000';
+
+				const type = 'Get In Touch';
+				const fromEmail = this.clientEmail;
+				const clientMessage = this.clientMessage;
+
+				const formData = {
+					type: type,
+					emailaddress: fromEmail,
+					content: clientMessage
+				};
+
+				axios.post(serverDomain + "/submitform", formData)
+				.then(function (response) {
+				  console.log("Success");
+				}).catch(function (error) {
+				  console.log("Error:" + error);
+				});
+				
+				this.clientMessage = '';
+				this.clientEmail = '';
+			}
+		}
     }
 </script>
 

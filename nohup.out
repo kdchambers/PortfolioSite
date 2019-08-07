@@ -1,0 +1,22 @@
+yarn run v1.17.3
+$ nuxt start
+
+ FATAL  No build files found in /home/keith/Code/web_development/PortfolioSite/.nuxt/dist/server.
+Use either `nuxt build` or `builder.build()` or start nuxt in development mode.
+
+  Use either `nuxt build` or `builder.build()` or start nuxt in development mode.
+  at VueRenderer._ready (node_modules/@nuxt/vue-renderer/dist/vue-renderer.js:2756:13)
+
+
+   ╭─────────────────────────────────────────────────────────────────────────────────────╮
+   │                                                                                     │
+   │   ✖ Nuxt Fatal Error                                                                │
+   │                                                                                     │
+   │   Error: No build files found in                                                    │
+   │   /home/keith/Code/web_development/PortfolioSite/.nuxt/dist/server.                 │
+   │   Use either `nuxt build` or `builder.build()` or start nuxt in development mode.   │
+   │                                                                                     │
+   ╰─────────────────────────────────────────────────────────────────────────────────────╯
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

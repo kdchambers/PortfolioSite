@@ -1,3 +1,10 @@
+let express = require('express');
+
+const httpServer = express();
+
+httpServer.get('/test', function(req, res) {
+	res.send({success:true});
+});
 
 export default {
   mode: 'universal',
@@ -26,5 +33,8 @@ export default {
   build: {
     extend(config, ctx) {
     }
-  }
+  },
+  serverMiddleware: [
+    '~/api/index.js'
+  ]
 }
